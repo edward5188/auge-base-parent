@@ -43,7 +43,7 @@ Configuration:
         - ref: CONSOLE
         - ref: ROLLING_FILE
     Logger: # 按包名输出
-      - name: com.augo.base
+      - name: com.auge.base
         additivity: false
         level: ${env:AUGO_LOG_LV:-debug}
         AppenderRef:

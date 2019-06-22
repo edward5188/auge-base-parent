@@ -24,7 +24,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.javadoc.version>2.9.1</maven.javadoc.version>
-        <spring.boot.version>1.5.13.RELEASE</spring.boot.version>
+        <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
     </properties>
 
     <organization>
@@ -47,7 +47,7 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>${spring.boot.version}</version>
+                    <version>${spring-boot.version}</version>
                     <executions>
                         <execution>
                             <goals>
